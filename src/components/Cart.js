@@ -33,7 +33,7 @@ const Cart = ({cartItem, removeBook, buyNow}) => {
                 ))}
             </ListGroup>
             {cartItem.length >= 1 ?(
-                <Card>
+                <Card className="text-white">
                     <CardHeader>
                         Grand Total
                     </CardHeader>
@@ -47,7 +47,7 @@ const Cart = ({cartItem, removeBook, buyNow}) => {
                     </CardFooter>
                 </Card>
             ) : (
-                <h1>Cart is EmptY</h1>
+                <h1>Cart is Empty</h1>
                 )}
         </Container>
     )

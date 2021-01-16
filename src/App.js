@@ -35,18 +35,8 @@ const App = () => {
 
     toast("purchase Complete", {type: "success"})
   }
-
-  // const fetchBooks = async() =>{
-  //     const {data} = await Axios.get('https://s3-ap-southeast-1.amazonaws.com/he-public-data/books8f8fe52.json')
-  //     console.log(data);
-  //     setBooks(data)
-  // }
-
-  // useEffect(() => {
-  //     fetchBooks()
-  // }, [])
   return(
-    <Container fluid>
+    <Container fluid className="bg-dark">
       <ToastContainer />
       <Row>
         <Col md="8">

@@ -19,7 +19,7 @@ const BuyPage = ({addInCart}) => {
  
     return(
         <Container fluid>
-            <h1>Buy Books</h1>
+            <h1 className="text-white">Welcome to ECS Book-Store</h1>
             <Row>
                 {books.map(book =>(
                     <Col md={4} key={book.bookID}>
